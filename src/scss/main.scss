@@ -1,0 +1,13 @@
+@import "generic/reset";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import "generic/fonts";
+@import "elements/footer";
+@import "elements/feature";
+@import "elements/clients";
+@import "elements/header";
+@import "elements/hero";
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}

@@ -1,0 +1,25 @@
+.footer {
+  background-color: #3BA9FB;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  font-family: $font-base;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #CEEAFD;
+
+  .footer__list {
+    display: flex;
+    justify-content: flex-start;
+
+    li {
+      margin-right: 3rem;
+      cursor: pointer;
+
+      &:hover {
+        color: #EBF7FF;
+        text-decoration: underline;
+      }
+    }
+  }
+}

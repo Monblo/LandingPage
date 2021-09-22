@@ -1,0 +1,23 @@
+.feature {
+  padding-top: 3.5rem;
+  border-top: 1px solid rgba(112, 112, 112, .4);
+}
+
+.feature__headline {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.0625rem;
+  margin-bottom: 2rem;
+}
+
+.feature__list {
+  color: #707070;
+  font-family: $font-base;
+}
+
+.feature__subHeadline {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-bottom: 3.5rem;
+}

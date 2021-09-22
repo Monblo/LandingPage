@@ -1,0 +1,51 @@
+.btn {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  padding: .8rem 2rem;
+  margin-right: .6rem;
+  font-weight: 700;
+  font-family: $font-base;
+}
+
+.btn__field {
+  position: absolute;
+  left: 10rem;
+  top: 16rem;
+}
+
+.button_1 {
+  color: #3F3F3F;
+  border: 2px solid #FFE200;
+  background-color: #FFE200;
+  box-shadow: 0 2px 7px #00000033;
+}
+
+.button_2 {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+}
+
+.hero {
+  font-family: $font-base;
+  font-weight: 700;
+  height: 26rem;
+  position: relative;
+
+  &:hover .button_2 {
+    background-color: #FFFFFF;
+    color: #741A8B;
+  }
+}
+
+.hero__headline {
+  color: #FFFFFF;
+  font-size: 3rem;
+  line-height: 3.375rem;
+  max-width: 39rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 10rem;
+}

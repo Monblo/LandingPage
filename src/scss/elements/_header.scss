@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  color: #3F3F3F;
+  font-family: $font-base;
+  line-height: 1.625rem;
+}
+
+.header__button {
+  padding: .5rem 1.5rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  box-shadow: 0 2px 7px #00000033;
+  background: transparent linear-gradient(90deg, #3BA9FB 0%, #148AF1 100%) 0 0 no-repeat padding-box;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: .8125rem;
+}
+
+.header__field__links {
+  display: flex;
+  align-items: center;
+
+  ul {
+    display: flex;
+  }
+}
+
+.header__field__nav {
+  display: flex;
+  align-items: center;
+}
+
+.links__el {
+  margin-left: 2rem;
+  border: none;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+}

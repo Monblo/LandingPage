@@ -1,0 +1,20 @@
+.clients {
+  text-align: center;
+  margin: 3.5rem 0;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients__title {
+  margin-bottom: 1rem;
+  font-family: $font-base;
+  font-weight: 700;
+  font-size: .75rem;
+  color: rgba(63, 63, 63, .4);
+  line-height: 1rem;
+  letter-spacing: .0625rem;
+}

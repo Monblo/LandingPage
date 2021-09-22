@@ -1,3 +1,10 @@
+Landing Page prepared with ButterCMS according to the template.
+
+The page is hosted on Heroku: https://landingpagemonblo.herokuapp.com/
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
